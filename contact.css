@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 0; /* Hapus padding agar footer tetap di bawah */
+}
+
+/* Header dan Navigasi */
+header {
+    background-color: #343a40;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+/* Main */
+main {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+}
+
+main h1 {
+    font-size: 2.2rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form p {
+    font-size: 1.1rem;
+    margin: 12px 0;
+    color: #555;
+}
+
+form b {
+    color: #222;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    position: relative; /* Ubah dari fixed ke relative */
+    width: 100%;
+    margin-top: auto; /* Tambahkan ini agar footer tetap di bawah */
+}
+
+.kontak {
+    color: #0077cc; /* Warna teks biru */
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.kontak:hover {
+    color: #005999; /* Warna saat di-hover */
+    text-decoration: underline;
+}
