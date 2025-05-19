@@ -1,28 +1,31 @@
 /* Reset default margin and padding */
 * {
-    margin: 5;
-    padding: 8;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /* Body styling */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial', sans-serif; 
     background-color: #f8f9fa;
-    color: #333;
+    color: #212529; 
     padding: 20px;
 }
 
 /* Header and Navigation */
 header {
-    background-color: #343a40;
+    background-color: #343a40; 
     padding: 15px 0;
+    text-align: center;
+    color: white;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 nav ul li {
@@ -37,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffc107;
+    color: #ffc107; 
 }
 
 /* Main content */
@@ -48,22 +51,26 @@ main {
 
 main h1 {
     font-size: 2.5rem;
-    color: #007bff;
+    color: #343a40; 
     margin-bottom: 15px;
 }
 
 main p {
     font-size: 1.2rem;
-    color: #555;
+    color: #495057; 
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #343a40;
-    color: white;
+    background-color: #343a40; 
+    color: rgb(255, 255, 255);
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.text-white {
+    color: #ffffff !important; 
 }
