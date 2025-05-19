@@ -17,7 +17,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
     color: #333;
-    padding: 0; /* Hapus padding agar footer tetap di bawah */
+    padding: 0;
 }
 
 /* Header dan Navigasi */
@@ -81,19 +81,18 @@ footer {
     padding: 20px;
     background-color: #343a40;
     color: white;
-    position: relative; /* Ubah dari fixed ke relative */
+    position: relative; 
     width: 100%;
-    margin-top: auto; /* Tambahkan ini agar footer tetap di bawah */
-}
+    margin-top: auto; 
 
 .kontak {
-    color: #0077cc; /* Warna teks biru */
+    color: #0077cc;
     font-weight: bold;
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
 .kontak:hover {
-    color: #005999; /* Warna saat di-hover */
+    color: #005999; 
     text-decoration: underline;
 }
